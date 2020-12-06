@@ -2,7 +2,7 @@ deploy:
 
   provider: heroku
 
-  app: pdes-flappernews
+  app: travisherokuapp
 
   api_key: 2aca7724-2718-4f05-af1b-5e687c5e88bb
 
