@@ -11,7 +11,7 @@ deploy:
 
   provider: heroku
 
-  app: travisherokuapp
+  app: travispruebaheroku
 
   api_key:
 
