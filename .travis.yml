@@ -11,12 +11,8 @@ deploy:
 
   provider: heroku
 
-  app:
-     master: travisherokuapp
-
-  on: 
-    repo: khadyCi/TirarDadosTravisHeroku
+  app: pdes-flappernews
 
   api_key:
 
-    secure: baa85ea8-834b-4f81-86f2-7ba06e60b161
+    secure: $HEROKU_API_KEY
