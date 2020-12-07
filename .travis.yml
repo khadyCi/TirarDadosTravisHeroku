@@ -1,9 +1,22 @@
+language: php
+php:
+  - "7.0"
+# list any PHP version you want to test against dans la travis
+ 
+script:
+- php index.php
+
+
 deploy:
 
   provider: heroku
 
-  app: travisherokuapp
+  app:
+     main: travisherokuapp
+
+  on: 
+    repo: khadyCi/TirarDadosTravisHeroku
 
   api_key:
 
-    secure: $HEROKU_API_KEY
+    secure: baa85ea8-834b-4f81-86f2-7ba06e60b161
