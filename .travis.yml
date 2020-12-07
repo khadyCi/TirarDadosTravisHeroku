@@ -1,17 +1,8 @@
-language: php
-php:
-  - "7.0"
-# list any PHP version you want to test against dans la travis
- 
-script:
-- php index.php
-
-
 deploy:
 
   provider: heroku
 
-  app: pdes-flappernews
+  app: travisherokuapp
 
   api_key:
 
